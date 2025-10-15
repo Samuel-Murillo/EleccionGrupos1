@@ -28,6 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem('grupos', JSON.stringify(grupos));
 
         // Redirigir a la página de sorteo
-        window.location.href = 'sorteo.htm';
+        window.location.href = 'sorteo.html';
     });
 });
