@@ -3,7 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
 }
 
 .container {
@@ -28,10 +33,10 @@ h1 {
 
 .input-section {
     flex: 1;
-    background: white;
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 textarea {
@@ -77,10 +82,10 @@ textarea {
 }
 
 .grupo {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .grupo-header {
